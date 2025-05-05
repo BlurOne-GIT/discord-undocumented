@@ -31,11 +31,15 @@
 | 28     | REQUEST_FORUM_UNREADS                    | ❌          | Send          | Request the unread state of a forum channel.                                            |
 | 29     | REMOTE_COMMAND                           | ❌          | Send          |                                                                                         |
 | 30     | GET_DELETED_ENTITY_IDS_NOT_MATCHING_HASH | ❌          | Send          |                                                                                         |
-| 31     | REQUEST_SOUNDBOARD_SOUNDS                | ❌          | Send          | Request guilds' soundboards                                                             |
+| 31     | REQUEST_SOUNDBOARD_SOUNDS                | ✅          | Send          | 	Request information about soundboard sounds in a set of guilds.                        |
 | 32     | SPEED_TEST_CREATE                        | ❌          | Send          |                                                                                         |
 | 33     | SPEED_TEST_DELETE                        | ❌          | Send          |                                                                                         |
 | 34     | REQUEST_LAST_MESSAGES                    | ❌          | Send          | Potentially unused.                                                                     |
 | 35     | SEARCH_RECENT_MEMBERS                    | ❌          | Send          | Potentially unused.                                                                     |
+| 36     | REQUEST_CHANNEL_STATUSES                 | ❌          | Send          |                                                                                         |
+| 37     | GUILD_SUBSCRIPTIONS_BULK                 | ❌          | Send          |                                                                                         |
+| 38     | GUILD_CHANNELS_RESYNC                    | ❌          | Send          |                                                                                         |
+| 39     | REQUEST_CHANNEL_MEMBER_COUNT             | ❌          | Send          |                                                                                         |
 
 ## VOICE_SERVER_PING
 
